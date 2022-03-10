@@ -1,3 +1,15 @@
 * INBOX
-
+** [0/9] Set-up proper HTML/CSS structure
+*** TODO Make grid elements wrap on resize
+Using autofill minmax, whatever.
+*** TODO Tinker a bit with scaling and proportions.
+*** TODO Set-up header structure
+**** TODO Top part
+**** TODO Bottom part
+*** TODO Set-up aside structure
+*** TODO Set-up trending-item structure
+*** TODO Set-up project-item structure
+*** TODO Add roboto font
+*** TODO Download icons
+*** TODO Add headers (h1,h2,h3)
 * FINISHED
