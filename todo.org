@@ -1,5 +1,5 @@
 * INBOX
-** [4/10] Set-up proper HTML/CSS structure
+** [5/10] Set-up proper HTML/CSS structure
 *** DONE Make grid elements wrap on resize
 Using autofill minmax, whatever.
 *** DONE Tinker a bit with scaling and proportions.
@@ -11,6 +11,8 @@ Using autofill minmax, whatever.
 *** TODO Set-up project-item structure
 *** TODO Add roboto font
 *** TODO Download icons
-*** TODO Add headers (h1,h2,h3)
+*** DONE Add headers (h1,h2,h3)
 *** TODO Change the news section to flex.
+** [0/1] Advanced
+*** TODO Make sure that title is not treated as an element in the grid using relative and absolute positioning
 * FINISHED
