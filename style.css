@@ -1,30 +1,49 @@
-* {
-    gap: 10px;
-}
-
 html, body {
     margin: 0;
-    padding: 10px;
     height: 100vh;
     color: black;
 }
 .wrapper {
     display: grid;
-    grid-template: 3fr 14fr / 2fr 10fr;
+    grid-template: minmax(180px, 3fr) 14fr / minmax(220px, 2fr) 10fr;
     height: 100%;
 }
 
 header {
+    display: flex;
+    flex-direction: column;
     grid-column: 2/3;
     border: solid black;
 }
 
 .top-user-line {
+    display: flex;
+    border: solid black;
+}
+
+input[type="search"] {
 
 }
 
-.bottom-user-line {
+.bell-icon{
+}
 
+.small-pfp {
+}
+
+.user-info {
+    display: flex;
+}
+
+.bottom-user-line {
+    display: flex;
+    border: solid black;
+}
+
+.greeting {
+}
+
+.username {
 }
 
 aside {
@@ -34,15 +53,15 @@ aside {
 
 main {
     display: grid;
-    grid-template: 1fr 1fr / 7fr 2fr;
+    grid-template: 1fr 1fr / 6fr minmax(300px, 2fr);
     border: solid black;
     padding: 25px;
 }
 
 .projects {
     display: grid;
-    /*TODO: Make it wrap*/
-    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 250px;
     grid-row: 1/3;
 }
 
@@ -54,7 +73,9 @@ main {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    max-height: 450px;
 }
+
 
 .announcements {
     border: solid black;
