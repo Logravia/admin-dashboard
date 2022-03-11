@@ -57,17 +57,32 @@ aside {
 }
 
 main {
+    position: relative;
     display: grid;
     grid-template: 1fr / 6fr minmax(300px, 2fr);
     border: solid black;
     padding: 25px;
 }
 
+main>
+
 .projects {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-auto-rows: 250px;
     grid-row: 1/3;
+}
+
+/*TODO: It is not obvious whether this is the best solution to adding a title.*/
+.projects>h2, .trends>h3, .announcements>h3{
+    position: absolute;
+    top: -50px;
+}
+
+.projects>h2{
+    position: absolute;
+    top: -50px;
 }
 
 .project-card {
@@ -80,6 +95,7 @@ main {
 }
 
 .announcements, .trends {
+    position: relative;
     padding: 10px;
     display: flex;
     flex-direction: column;
