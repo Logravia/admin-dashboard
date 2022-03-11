@@ -1,16 +1,16 @@
 * INBOX
-** [8/11] Set-up proper HTML/CSS structure
+** [10/11] Set-up proper HTML/CSS structure
 *** DONE Make grid elements wrap on resize
 *** DONE Tinker a bit with scaling and proportions.
 *** DONE Set-up header structure
 **** DONE Top part
 **** DONE Bottom part
 *** DONE Set-up aside structure
-*** TODO Set-up trending-item structure
+*** DONE Set-up trending-item structure
 *** DONE Set-up project-item structure
 *** DONE Add roboto font
 *** DONE Download icons
 *** DONE Add headers (h1,h2,h3)
-*** TODO Change the news section to flex.
+*** DONE Change the news section to flex.
 *** TODO Make sure that title is not treated as an element in the grid using relative and absolute positioning
 * FINISHED
