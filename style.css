@@ -101,6 +101,22 @@ main {
 }
 
 .trending-item {
+    display: flex;
+    align-items: center;
     flex: 1;
     border: solid black;
+}
+
+.trending-item>img {
+    height: 70px ;
+}
+
+.trending-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trending-text>h4 {
+    margin: 0;
 }
