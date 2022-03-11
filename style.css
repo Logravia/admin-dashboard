@@ -3,6 +3,11 @@
   src:  url('fonts/roboto-regular.ttf')
 }
 
+@font-face {
+    font-family: cinzel;
+    src: url(./fonts/Cinzel-Regular.ttf);
+}
+
 html, body {
     margin: 0;
     height: 100vh;
@@ -18,12 +23,10 @@ header {
     display: flex;
     flex-direction: column;
     grid-column: 2/3;
-    border: solid black;
 }
 
 .top-user-line {
     display: flex;
-    border: solid black;
 }
 
 input[type="search"] {
@@ -52,9 +55,61 @@ input[type="search"] {
 }
 
 aside {
+    padding: 15px;
     grid-row: 1/3;
-    border: solid black;
+    background-color: #064E3B;
+    color: #ECFDF5;
+    font-weight: bold;
+    position: relative;
 }
+
+aside ul {
+    list-style: none;
+}
+
+.logo{
+    font-family: cinzel;
+    font-size: 1.3rem;
+    align-items: center;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.logo>img{
+    margin-right: 15px;
+    height: 3.5rem;
+}
+
+.main-nav, .secondary-nav {
+    padding-left: 0;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 10fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+
+.main-nav>img, .secondary-nav>img {
+    justify-self: start;
+    height: 110%;
+}
+
+.main-nav>a, .secondary-nav>a {
+    padding-left: 45px;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-crystal {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
 
 main {
     position: relative;
