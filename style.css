@@ -74,6 +74,11 @@ main {
     border: solid black;
 }
 
+.project-card-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .announcements, .trends {
     padding: 10px;
     display: flex;
